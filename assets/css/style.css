@@ -44,15 +44,15 @@
     margin-top: 40px;
   }
   
-  footer {
-    background-color: #FFF;
-    position:fixed;
-    bottom: 0px;
-    width: 1150px;
-    text-align: center;
-    }
+footer { 
+    font-size: 12px;
+    text-align: center; 
+    clear: both;
+    padding-top: 50px; 
+    border-top: 5px solid #d0d0d0;
+    color: #ccc;} 
       
   body {
-    background-color:white;
+    background-color: white;
     color:black;
   }
