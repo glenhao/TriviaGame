@@ -111,8 +111,8 @@ $(document).ready(function() {
     var gameHTML;
     var counter = 30;
     var questionArray = ["Who is gonna be the all time best shooter in NBA", "What is the best season in Toronto", "Who is the best TA in this course?", "Which city hosts the 2020 Summer Olmpic Games", "Which city hosts the 2022 Winter Olympic Games",];
-    var answerArray = [["Michael Jordan", "Ray Allen", "Stephen Curry", "Glen Hao"], ["Summer","Autumn","Winter","don't know"], ["Stephanie", "Peter", "Justine", "Whoever is marking this assignement"], ["Kyoto","Hiroshima","Tokyo","Osaka"], ["GuangZhou", "ShenZhen", "ShangHai", "BeiJing"]];
-    var correctAnswers = ["C. Stephen Curry", "D. don't know", "D. Whoever is marking this assignement", "C. Tokyo", "D. BeiJing"];
+    var answerArray = [["Michael Jordan", "Ray Allen", "Stephen Curry", "Glen Hao"], ["Summer","Autumn","Winter","I don't know"], ["Stephanie", "Peter", "Justine", "Whoever is marking this assignement"], ["Kyoto","Hiroshima","Tokyo","Osaka"], ["GuangZhou", "ShenZhen", "ShangHai", "BeiJing"]];
+    var correctAnswers = ["C. Stephen Curry", "D. I don't know", "D. Whoever is marking this assignement", "C. Tokyo", "D. BeiJing"];
     var questionCounter = 0;
     var selecterAnswer;
     var theClock;
