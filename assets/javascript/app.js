@@ -119,4 +119,4 @@ $(document).ready(function() {
     var correctTally = 0;
     var incorrectTally = 0;
     var unansweredTally = 0;
-    var clickSound = new Audio("sound/button-click.mp3");
+   
