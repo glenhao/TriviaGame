@@ -10,7 +10,7 @@ $(document).ready(function() {
     
     $("body").on("click", ".start-button", function(event){
         event.preventDefault();  
-        clickSound.play();
+
         generateHTML();
     
         timerWrapper();
@@ -19,7 +19,6 @@ $(document).ready(function() {
     
     $("body").on("click", ".answer", function(event){
        
-        clickSound.play();
         selectedAnswer = $(this).text();
         if(selectedAnswer === correctAnswers[questionCounter]) {
             
@@ -34,7 +33,7 @@ $(document).ready(function() {
     }); 
     
     $("body").on("click", ".reset-button", function(event){
-        clickSound.play();
+ 
         resetGame();
     }); 
     
@@ -67,7 +66,7 @@ $(document).ready(function() {
     }
     
     function wait() {
-        if (questionCounter < 7) {
+        if (questionCounter < 5) {
         questionCounter++;
         generateHTML();
         counter = 30;
